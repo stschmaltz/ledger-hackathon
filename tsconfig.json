@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "exclude": ["packages"],
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "packages/**/*.ts",
+    "stacks/**/*.ts",
+    "functions/**/*.ts",
+    "packages/db/migrations/*.mts"
+, "packages/db/migrations/20240729173312-create-account.mjs", "packages/db/migrations/20240729173319-create-transaction.mjs", "packages/db/migrations/20240729173323-create-entry.mjs"  ]
+}
