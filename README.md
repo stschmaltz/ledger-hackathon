@@ -118,4 +118,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-This project was developed as a hackathon project to demonstrate the potential of a centralized double-entry immutable ledger system as a microservice.
+This project was developed as a 2-day hackathon project to demonstrate the potential of a centralized double-entry immutable ledger system as a microservice.
