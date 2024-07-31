@@ -1,0 +1,114 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.refreshButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refreshButton:hover {
+  background-color: #0056b3;
+}
+
+.refreshButton:disabled {
+  background-color: #007bff;
+  cursor: not-allowed;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.accountsAndValidation {
+  display: flex;
+}
+
+.accountsContainer {
+  flex-grow: 1;
+  margin-left: 40px;
+}
+
+.validationStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.validationStatus p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.balanced {
+  color: green;
+  font-weight: bold;
+}
+
+.unbalanced {
+  color: red;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
