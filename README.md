@@ -1,4 +1,4 @@
-# Ledger Microservice
+# Ledger Hackathon Project
 
 ## Overview
 
